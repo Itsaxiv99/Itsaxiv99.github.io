@@ -2,9 +2,9 @@
 
 const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
-const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".img-img");
+const yesButton = document.querySelector(".btn--yes");
 
 const MAX_IMAGES = 5;
 
@@ -12,6 +12,8 @@ let play = true;
 let noCount = 0;
 
 yesButton.addEventListener("click", handleYesClick);
+
+btnYes.addEventListener("click", lanzarConfeti);
 
 noButton.addEventListener("click", function () {
   if (play) {
@@ -26,6 +28,13 @@ noButton.addEventListener("click", function () {
   }
 });
 
+function lanzarConfeti() {
+  confetti({
+    particleCount: 200,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
+}
 function handleYesClick() {
   titleElement.innerHTML = "Sabia que ibas a decir que sii 😍🥰 :)";
   buttonsContainer.classList.add("hidden");
