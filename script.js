@@ -42,12 +42,12 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No",
-    "Seguro que no?",
+    "No 🤧",
+    "Seguro que no? 😟",
     "Segurisimo que no? 😣",
-    "Ño? :(",
-    "Mute 🤐 no?",
-    "Si pones chi te compro el Mk11 khaos",
+    "Ño? 😥",
+    "Mute 🤐, fdb no?",
+    "Apreta pue si nde mongolico 😡",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
