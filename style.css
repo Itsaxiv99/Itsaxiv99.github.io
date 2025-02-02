@@ -9,7 +9,9 @@ html {
 }
 
 body {
-  background-image: url('fondo.jpg');
+  background: url(fondo.jpg);
+  background-size: cover;
+  background-position: center;
   font-family: "Protest Riot", sans-serif;
 }
 
