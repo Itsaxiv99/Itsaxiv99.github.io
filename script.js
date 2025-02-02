@@ -47,7 +47,7 @@ function generateMessage(noCount) {
     "Segurisimo que no? 😣",
     "Ño? :(",
     "Mute 🤐 no?",
-    "Si pones si te compro el Mk11 khaos",
+    "Si pones chi te compro el Mk11 khaos",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
