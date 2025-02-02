@@ -13,7 +13,7 @@ let noCount = 0;
 
 yesButton.addEventListener("click", handleYesClick);
 
-btnYes.addEventListener("click", lanzarConfeti);
+yesButton.addEventListener("click", lanzarConfeti);
 
 noButton.addEventListener("click", function () {
   if (play) {
