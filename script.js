@@ -56,7 +56,7 @@ function generateMessage(noCount) {
     "Segurisimo que no? 😣",
     "Ño? 😥",
     "Mute 🤐, fdb no?",
-    "Apreta pue si nde mongolico 😡",
+    "No tenes otra opcion pone shi 😏",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
